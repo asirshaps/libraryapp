@@ -11,7 +11,7 @@
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="css/styles.css" rel="stylesheet">
+		<link href="/css/styles.css" rel="stylesheet">
 	</head>
 	<body>
 <header class="navbar navbar-bright navbar-fixed-top" role="banner">
@@ -51,7 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7">
-          <h1>Login
+          <h1>Signup
             <p class="lead"></p>
           </h1>
         </div>
@@ -88,7 +88,7 @@
             <div class="panel-body">
 
                    <!--/stories-->
-                   <form action="login.html" class="signup" onsubmit= "return !!(phoneNumber() & validate() & Password() & confirmPassword());">
+                   <form action="login" class="signup" onsubmit= "return !!(phoneNumber() & validate() & Password() & confirmPassword());">
                     <h3>Create account</h3>
                     
                     <div class="signup-cont">
@@ -128,6 +128,8 @@
                         </div>
                     </div>
                   </form>
+                </div>
+              </div> 
             
            
             <!--/stories-->
@@ -189,5 +191,6 @@
     <!-- script references -->
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
+      <script src="js/signup.js"></script>
     </body>
   </html>
